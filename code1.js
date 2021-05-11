@@ -1851,13 +1851,6 @@ gdjs.GamingCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce
 
 {
 
-
-
-}
-
-
-{
-
 gdjs.copyArray(runtimeScene.getObjects("UFO"), gdjs.GamingCode.GDUFOObjects2);
 
 for(gdjs.GamingCode.forEachIndex3 = 0;gdjs.GamingCode.forEachIndex3 < gdjs.GamingCode.GDUFOObjects2.length;++gdjs.GamingCode.forEachIndex3) {
@@ -2542,6 +2535,29 @@ gdjs.copyArray(runtimeScene.getObjects("Player"), gdjs.GamingCode.GDPlayerObject
 {
 
 
+
+}
+
+
+{
+
+
+gdjs.GamingCode.condition0IsTrue_0.val = false;
+{
+gdjs.GamingCode.condition0IsTrue_0.val = gdjs.evtTools.runtimeScene.sceneJustBegins(runtimeScene);
+}if (gdjs.GamingCode.condition0IsTrue_0.val) {
+gdjs.copyArray(runtimeScene.getObjects("CheatText"), gdjs.GamingCode.GDCheatTextObjects2);
+{for(var i = 0, len = gdjs.GamingCode.GDCheatTextObjects2.length ;i < len;++i) {
+    gdjs.GamingCode.GDCheatTextObjects2[i].hide();
+}
+}}
+
+}
+
+
+{
+
+
 gdjs.GamingCode.condition0IsTrue_0.val = false;
 {
 gdjs.GamingCode.condition0IsTrue_0.val = gdjs.evtTools.input.wasKeyReleased(runtimeScene, "q");
@@ -3187,6 +3203,13 @@ gdjs.copyArray(runtimeScene.getObjects("TimePlaying"), gdjs.GamingCode.GDTimePla
 
 
 };gdjs.GamingCode.eventsList58 = function(runtimeScene) {
+
+{
+
+
+
+}
+
 
 {
 
